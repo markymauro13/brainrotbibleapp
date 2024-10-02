@@ -1,0 +1,2 @@
+# brainrotbibleapp
+https://brainrotbible.app/
