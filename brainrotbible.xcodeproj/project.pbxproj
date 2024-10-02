@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE7A4462CADCCA100C82A71 /* brainrotbibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE7A4452CADCCA100C82A71 /* brainrotbibleApp.swift */; };
+		DCE7A4482CADCCA100C82A71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE7A4472CADCCA100C82A71 /* ContentView.swift */; };
+		DCE7A44A2CADCCAE00C82A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE7A4492CADCCAE00C82A71 /* Assets.xcassets */; };
+		DCE7A44D2CADCCAE00C82A71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE7A44C2CADCCAE00C82A71 /* Preview Assets.xcassets */; };
+		DCE7A4572CADCCAE00C82A71 /* brainrotbibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE7A4562CADCCAE00C82A71 /* brainrotbibleTests.swift */; };
+		DCE7A4612CADCCAE00C82A71 /* brainrotbibleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE7A4602CADCCAE00C82A71 /* brainrotbibleUITests.swift */; };
+		DCE7A4632CADCCAE00C82A71 /* brainrotbibleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE7A4622CADCCAE00C82A71 /* brainrotbibleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE7A4532CADCCAE00C82A71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE7A43A2CADCCA100C82A71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE7A4412CADCCA100C82A71;
+			remoteInfo = brainrotbible;
+		};
+		DCE7A45D2CADCCAE00C82A71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE7A43A2CADCCA100C82A71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE7A4412CADCCA100C82A71;
+			remoteInfo = brainrotbible;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE7A4422CADCCA100C82A71 /* brainrotbible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainrotbible.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE7A4452CADCCA100C82A71 /* brainrotbibleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainrotbibleApp.swift; sourceTree = "<group>"; };
+		DCE7A4472CADCCA100C82A71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCE7A4492CADCCAE00C82A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE7A44C2CADCCAE00C82A71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCE7A4522CADCCAE00C82A71 /* brainrotbibleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brainrotbibleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE7A4562CADCCAE00C82A71 /* brainrotbibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainrotbibleTests.swift; sourceTree = "<group>"; };
+		DCE7A45C2CADCCAE00C82A71 /* brainrotbibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brainrotbibleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE7A4602CADCCAE00C82A71 /* brainrotbibleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainrotbibleUITests.swift; sourceTree = "<group>"; };
+		DCE7A4622CADCCAE00C82A71 /* brainrotbibleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainrotbibleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE7A43F2CADCCA100C82A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE7A44F2CADCCAE00C82A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE7A4592CADCCAE00C82A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE7A4392CADCCA100C82A71 = {
+			isa = PBXGroup;
+			children = (
+				DCE7A4442CADCCA100C82A71 /* brainrotbible */,
+				DCE7A4552CADCCAE00C82A71 /* brainrotbibleTests */,
+				DCE7A45F2CADCCAE00C82A71 /* brainrotbibleUITests */,
+				DCE7A4432CADCCA100C82A71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE7A4432CADCCA100C82A71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE7A4422CADCCA100C82A71 /* brainrotbible.app */,
+				DCE7A4522CADCCAE00C82A71 /* brainrotbibleTests.xctest */,
+				DCE7A45C2CADCCAE00C82A71 /* brainrotbibleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE7A4442CADCCA100C82A71 /* brainrotbible */ = {
+			isa = PBXGroup;
+			children = (
+				DCE7A4452CADCCA100C82A71 /* brainrotbibleApp.swift */,
+				DCE7A4472CADCCA100C82A71 /* ContentView.swift */,
+				DCE7A4492CADCCAE00C82A71 /* Assets.xcassets */,
+				DCE7A44B2CADCCAE00C82A71 /* Preview Content */,
+			);
+			path = brainrotbible;
+			sourceTree = "<group>";
+		};
+		DCE7A44B2CADCCAE00C82A71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCE7A44C2CADCCAE00C82A71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCE7A4552CADCCAE00C82A71 /* brainrotbibleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE7A4562CADCCAE00C82A71 /* brainrotbibleTests.swift */,
+			);
+			path = brainrotbibleTests;
+			sourceTree = "<group>";
+		};
+		DCE7A45F2CADCCAE00C82A71 /* brainrotbibleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE7A4602CADCCAE00C82A71 /* brainrotbibleUITests.swift */,
+				DCE7A4622CADCCAE00C82A71 /* brainrotbibleUITestsLaunchTests.swift */,
+			);
+			path = brainrotbibleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE7A4412CADCCA100C82A71 /* brainrotbible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE7A4662CADCCAE00C82A71 /* Build configuration list for PBXNativeTarget "brainrotbible" */;
+			buildPhases = (
+				DCE7A43E2CADCCA100C82A71 /* Sources */,
+				DCE7A43F2CADCCA100C82A71 /* Frameworks */,
+				DCE7A4402CADCCA100C82A71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brainrotbible;
+			productName = brainrotbible;
+			productReference = DCE7A4422CADCCA100C82A71 /* brainrotbible.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE7A4512CADCCAE00C82A71 /* brainrotbibleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE7A4692CADCCAE00C82A71 /* Build configuration list for PBXNativeTarget "brainrotbibleTests" */;
+			buildPhases = (
+				DCE7A44E2CADCCAE00C82A71 /* Sources */,
+				DCE7A44F2CADCCAE00C82A71 /* Frameworks */,
+				DCE7A4502CADCCAE00C82A71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE7A4542CADCCAE00C82A71 /* PBXTargetDependency */,
+			);
+			name = brainrotbibleTests;
+			productName = brainrotbibleTests;
+			productReference = DCE7A4522CADCCAE00C82A71 /* brainrotbibleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCE7A45B2CADCCAE00C82A71 /* brainrotbibleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE7A46C2CADCCAE00C82A71 /* Build configuration list for PBXNativeTarget "brainrotbibleUITests" */;
+			buildPhases = (
+				DCE7A4582CADCCAE00C82A71 /* Sources */,
+				DCE7A4592CADCCAE00C82A71 /* Frameworks */,
+				DCE7A45A2CADCCAE00C82A71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE7A45E2CADCCAE00C82A71 /* PBXTargetDependency */,
+			);
+			name = brainrotbibleUITests;
+			productName = brainrotbibleUITests;
+			productReference = DCE7A45C2CADCCAE00C82A71 /* brainrotbibleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE7A43A2CADCCA100C82A71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DCE7A4412CADCCA100C82A71 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DCE7A4512CADCCAE00C82A71 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DCE7A4412CADCCA100C82A71;
+					};
+					DCE7A45B2CADCCAE00C82A71 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DCE7A4412CADCCA100C82A71;
+					};
+				};
+			};
+			buildConfigurationList = DCE7A43D2CADCCA100C82A71 /* Build configuration list for PBXProject "brainrotbible" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE7A4392CADCCA100C82A71;
+			productRefGroup = DCE7A4432CADCCA100C82A71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE7A4412CADCCA100C82A71 /* brainrotbible */,
+				DCE7A4512CADCCAE00C82A71 /* brainrotbibleTests */,
+				DCE7A45B2CADCCAE00C82A71 /* brainrotbibleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE7A4402CADCCA100C82A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE7A44D2CADCCAE00C82A71 /* Preview Assets.xcassets in Resources */,
+				DCE7A44A2CADCCAE00C82A71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE7A4502CADCCAE00C82A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE7A45A2CADCCAE00C82A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE7A43E2CADCCA100C82A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE7A4482CADCCA100C82A71 /* ContentView.swift in Sources */,
+				DCE7A4462CADCCA100C82A71 /* brainrotbibleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE7A44E2CADCCAE00C82A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE7A4572CADCCAE00C82A71 /* brainrotbibleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE7A4582CADCCAE00C82A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE7A4632CADCCAE00C82A71 /* brainrotbibleUITestsLaunchTests.swift in Sources */,
+				DCE7A4612CADCCAE00C82A71 /* brainrotbibleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE7A4542CADCCAE00C82A71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE7A4412CADCCA100C82A71 /* brainrotbible */;
+			targetProxy = DCE7A4532CADCCAE00C82A71 /* PBXContainerItemProxy */;
+		};
+		DCE7A45E2CADCCAE00C82A71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE7A4412CADCCA100C82A71 /* brainrotbible */;
+			targetProxy = DCE7A45D2CADCCAE00C82A71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCE7A4642CADCCAE00C82A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCE7A4652CADCCAE00C82A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE7A4672CADCCAE00C82A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brainrotbible/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markymauro.brainrotbible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE7A4682CADCCAE00C82A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brainrotbible/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markymauro.brainrotbible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCE7A46A2CADCCAE00C82A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markymauro.brainrotbibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brainrotbible.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brainrotbible";
+			};
+			name = Debug;
+		};
+		DCE7A46B2CADCCAE00C82A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markymauro.brainrotbibleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brainrotbible.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brainrotbible";
+			};
+			name = Release;
+		};
+		DCE7A46D2CADCCAE00C82A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markymauro.brainrotbibleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brainrotbible;
+			};
+			name = Debug;
+		};
+		DCE7A46E2CADCCAE00C82A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markymauro.brainrotbibleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brainrotbible;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE7A43D2CADCCA100C82A71 /* Build configuration list for PBXProject "brainrotbible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE7A4642CADCCAE00C82A71 /* Debug */,
+				DCE7A4652CADCCAE00C82A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE7A4662CADCCAE00C82A71 /* Build configuration list for PBXNativeTarget "brainrotbible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE7A4672CADCCAE00C82A71 /* Debug */,
+				DCE7A4682CADCCAE00C82A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE7A4692CADCCAE00C82A71 /* Build configuration list for PBXNativeTarget "brainrotbibleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE7A46A2CADCCAE00C82A71 /* Debug */,
+				DCE7A46B2CADCCAE00C82A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE7A46C2CADCCAE00C82A71 /* Build configuration list for PBXNativeTarget "brainrotbibleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE7A46D2CADCCAE00C82A71 /* Debug */,
+				DCE7A46E2CADCCAE00C82A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE7A43A2CADCCA100C82A71 /* Project object */;
+}
