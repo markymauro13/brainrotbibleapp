@@ -11,7 +11,7 @@ import SwiftUI
 struct brainrotbibleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView() // Start the app with the OnboardingView
         }
     }
 }
