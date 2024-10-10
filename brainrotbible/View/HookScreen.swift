@@ -13,12 +13,17 @@ struct HookScreen: View {
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             Spacer()
             NavigationLink(destination: ChooseCategoriesScreen()) {
-                Text("Continue")
+                Text("Get Started")
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity)
                     .padding()
                     .background(Color.orange)
                     .cornerRadius(10)
-                    .foregroundColor(.white)
+                
             }
+            .padding(.horizontal, 40)
+            .padding(.bottom, 20)
         }
     }
 }

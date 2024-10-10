@@ -11,11 +11,16 @@ struct OnboardingView: View {
                 Spacer()
                 NavigationLink(destination: HookScreen()) {
                     Text("Get Started")
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
                         .padding()
                         .background(Color.orange)
                         .cornerRadius(10)
-                        .foregroundColor(.white)
+                    
                 }
+                .padding(.horizontal, 40)
+                .padding(.bottom, 20)
             }
         }
     }

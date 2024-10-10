@@ -11,15 +11,21 @@ struct WidgetScreen: View {
                 .padding(.top, 40)
             // Add widget instruction.
             Text("Tap and hold any app icon until the apps feel your aura and start to shake. Then tap the “+” button, search “Brainrot Bible”,  choose your widget size and add widget!")
-                .padding(10)
+                .padding(24)
+                .font(.title)
             Spacer()
             NavigationLink(destination: SigmaSubscriptionScreen()) {
-                Text("Continue")
+                Text("Get Started")
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity)
                     .padding()
                     .background(Color.orange)
                     .cornerRadius(10)
-                    .foregroundColor(.white)
+                
             }
+            .padding(.horizontal, 40)
+            .padding(.bottom, 20)
         }
     }
 }
