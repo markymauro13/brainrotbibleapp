@@ -3,14 +3,14 @@ import SwiftUI
 struct HookScreen: View {
     var body: some View {
         VStack {
-            Spacer()
-            Text("Brainrot Bible")
+            Text("Daily brainrot for the modern mogger.")
                 .font(.largeTitle)
                 .padding()
-            Text("Daily brainrot for the modern mogger")
+                .bold()
+                .padding(.top, 40)
+            Text("Powerful brainrot quotes to increase your aura and keep your brain feeling sigma.")
                 .padding()
-            Text("Powerful brainrot quotes increase your aura and keep your brain feeling skibidi.")
-                .padding()
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             Spacer()
             NavigationLink(destination: ChooseCategoriesScreen()) {
                 Text("Continue")
