@@ -13,7 +13,7 @@ struct HookScreen: View {
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             Spacer()
             NavigationLink(destination: ChooseCategoriesScreen()) {
-                Text("Get Started")
+                Text("Continue")
                     .fontWeight(.bold)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)

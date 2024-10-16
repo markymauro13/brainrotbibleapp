@@ -3,13 +3,13 @@ import SwiftUI
 struct ChooseCategoriesScreen: View {
     var body: some View {
         VStack {
-            Text("Choose your favorite brainrot categories")
+            Text("Choose your between favorite brainrot categories")
                 .font(.title)
                 .bold()
                 .padding(.bottom, 30)
                 .multilineTextAlignment(.center)
-                .padding(.top, 40)
-            Spacer()
+                .padding(.top, 30)
+                .padding(10)
             VStack(alignment: .leading, spacing: 10) {
                             Text("• Historical")
                             Text("• Zesty")
@@ -23,7 +23,7 @@ struct ChooseCategoriesScreen: View {
                         
             Spacer()
             NavigationLink(destination: RemindersScreen()) {
-                Text("Get Started")
+                Text("Continue")
                     .fontWeight(.bold)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)

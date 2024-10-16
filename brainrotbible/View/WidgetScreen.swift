@@ -15,7 +15,7 @@ struct WidgetScreen: View {
                 .font(.title)
             Spacer()
             NavigationLink(destination: SigmaSubscriptionScreen()) {
-                Text("Get Started")
+                Text("Continue")
                     .fontWeight(.bold)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)

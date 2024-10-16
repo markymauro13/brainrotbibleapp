@@ -4,6 +4,9 @@ struct OnboardingView: View {
     var body: some View {
         NavigationView {
             VStack {
+                NavigationLink(destination: BrainrotBibleHomeView()){
+                    Text("SKIP")
+                }
                 Spacer()
                 Text("Welcome to Brainrot Bible")
                     .font(.largeTitle)

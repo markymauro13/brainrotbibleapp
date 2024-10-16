@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC4873942CBEAC8E00773868 /* BrainrotBibleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4873932CBEAC8E00773868 /* BrainrotBibleHomeView.swift */; };
+		DC4873962CC0356800773868 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4873952CC0356800773868 /* QuoteView.swift */; };
+		DC4873982CC0358900773868 /* BottomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4873972CC0358900773868 /* BottomNavigationBar.swift */; };
+		DC48739A2CC0370400773868 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4873992CC0370400773868 /* HomeTabView.swift */; };
+		DC48739C2CC0373D00773868 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48739B2CC0373D00773868 /* SettingsView.swift */; };
+		DC48739E2CC0384E00773868 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48739D2CC0384E00773868 /* CategoriesView.swift */; };
+		DC4873A02CC0386100773868 /* ThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48739F2CC0386100773868 /* ThemesView.swift */; };
 		DCE7A4462CADCCA100C82A71 /* brainrotbibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE7A4452CADCCA100C82A71 /* brainrotbibleApp.swift */; };
 		DCE7A44A2CADCCAE00C82A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE7A4492CADCCAE00C82A71 /* Assets.xcassets */; };
 		DCE7A44D2CADCCAE00C82A71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE7A44C2CADCCAE00C82A71 /* Preview Assets.xcassets */; };
@@ -39,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC4873932CBEAC8E00773868 /* BrainrotBibleHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainrotBibleHomeView.swift; sourceTree = "<group>"; };
+		DC4873952CC0356800773868 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		DC4873972CC0358900773868 /* BottomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationBar.swift; sourceTree = "<group>"; };
+		DC4873992CC0370400773868 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		DC48739B2CC0373D00773868 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DC48739D2CC0384E00773868 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		DC48739F2CC0386100773868 /* ThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesView.swift; sourceTree = "<group>"; };
 		DCE7A4422CADCCA100C82A71 /* brainrotbible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainrotbible.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE7A4452CADCCA100C82A71 /* brainrotbibleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainrotbibleApp.swift; sourceTree = "<group>"; };
 		DCE7A4492CADCCAE00C82A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,12 +156,19 @@
 		DCE7A46F2CADD2E800C82A71 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DC48739B2CC0373D00773868 /* SettingsView.swift */,
+				DC4873992CC0370400773868 /* HomeTabView.swift */,
+				DC4873972CC0358900773868 /* BottomNavigationBar.swift */,
+				DC4873952CC0356800773868 /* QuoteView.swift */,
 				DCE7A4742CADD3A100C82A71 /* OnboardingView.swift */,
 				DCE7A4762CADD3CD00C82A71 /* HookScreen.swift */,
 				DCE7A47E2CADD5C500C82A71 /* RemindersScreen.swift */,
 				DCE7A4802CADD62200C82A71 /* WidgetScreen.swift */,
 				DCE7A4822CADD63D00C82A71 /* SigmaSubscriptionScreen.swift */,
 				DCE7A4842CADD78200C82A71 /* ChooseCategoriesScreen.swift */,
+				DC4873932CBEAC8E00773868 /* BrainrotBibleHomeView.swift */,
+				DC48739F2CC0386100773868 /* ThemesView.swift */,
+				DC48739D2CC0384E00773868 /* CategoriesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,9 +321,16 @@
 				DCE7A4752CADD3A100C82A71 /* OnboardingView.swift in Sources */,
 				DCE7A4832CADD63D00C82A71 /* SigmaSubscriptionScreen.swift in Sources */,
 				DCE7A4772CADD3CD00C82A71 /* HookScreen.swift in Sources */,
+				DC4873A02CC0386100773868 /* ThemesView.swift in Sources */,
 				DCE7A4812CADD62200C82A71 /* WidgetScreen.swift in Sources */,
+				DC48739A2CC0370400773868 /* HomeTabView.swift in Sources */,
+				DC48739E2CC0384E00773868 /* CategoriesView.swift in Sources */,
 				DCE7A4852CADD78200C82A71 /* ChooseCategoriesScreen.swift in Sources */,
+				DC4873982CC0358900773868 /* BottomNavigationBar.swift in Sources */,
 				DCE7A4462CADCCA100C82A71 /* brainrotbibleApp.swift in Sources */,
+				DC48739C2CC0373D00773868 /* SettingsView.swift in Sources */,
+				DC4873962CC0356800773868 /* QuoteView.swift in Sources */,
+				DC4873942CBEAC8E00773868 /* BrainrotBibleHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

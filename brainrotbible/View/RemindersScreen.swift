@@ -92,7 +92,7 @@ struct RemindersScreen: View {
             Spacer()
             
             NavigationLink(destination: WidgetScreen()) {
-                Text("Get Started")
+                Text("Continue")
                     .fontWeight(.bold)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)

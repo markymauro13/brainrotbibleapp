@@ -84,11 +84,9 @@ struct SigmaSubscriptionScreen: View {
             .padding(.bottom, 20)
 
             // Dismiss button
-            Button(action: {
-                // Handle Dismiss action
-            }) {
+            NavigationLink(destination: BrainrotBibleHomeView()) {
                 Text("Dismiss")
-                    .foregroundColor(.black )
+                    .foregroundColor(.black)
             }
             .padding(.bottom, 20)
         }
