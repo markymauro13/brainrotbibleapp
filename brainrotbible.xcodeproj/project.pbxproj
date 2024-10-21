@@ -14,6 +14,7 @@
 		DC48739C2CC0373D00773868 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48739B2CC0373D00773868 /* SettingsView.swift */; };
 		DC48739E2CC0384E00773868 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48739D2CC0384E00773868 /* CategoriesView.swift */; };
 		DC4873A02CC0386100773868 /* ThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48739F2CC0386100773868 /* ThemesView.swift */; };
+		DC4873A22CC6A05200773868 /* QuoteCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4873A12CC6A05200773868 /* QuoteCarouselView.swift */; };
 		DCE7A4462CADCCA100C82A71 /* brainrotbibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE7A4452CADCCA100C82A71 /* brainrotbibleApp.swift */; };
 		DCE7A44A2CADCCAE00C82A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE7A4492CADCCAE00C82A71 /* Assets.xcassets */; };
 		DCE7A44D2CADCCAE00C82A71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE7A44C2CADCCAE00C82A71 /* Preview Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		DC48739B2CC0373D00773868 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DC48739D2CC0384E00773868 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		DC48739F2CC0386100773868 /* ThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesView.swift; sourceTree = "<group>"; };
+		DC4873A12CC6A05200773868 /* QuoteCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCarouselView.swift; sourceTree = "<group>"; };
 		DCE7A4422CADCCA100C82A71 /* brainrotbible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainrotbible.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE7A4452CADCCA100C82A71 /* brainrotbibleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainrotbibleApp.swift; sourceTree = "<group>"; };
 		DCE7A4492CADCCAE00C82A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		DCE7A46F2CADD2E800C82A71 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DC4873A12CC6A05200773868 /* QuoteCarouselView.swift */,
 				DC48739B2CC0373D00773868 /* SettingsView.swift */,
 				DC4873992CC0370400773868 /* HomeTabView.swift */,
 				DC4873972CC0358900773868 /* BottomNavigationBar.swift */,
@@ -320,6 +323,7 @@
 				DCE7A47F2CADD5C500C82A71 /* RemindersScreen.swift in Sources */,
 				DCE7A4752CADD3A100C82A71 /* OnboardingView.swift in Sources */,
 				DCE7A4832CADD63D00C82A71 /* SigmaSubscriptionScreen.swift in Sources */,
+				DC4873A22CC6A05200773868 /* QuoteCarouselView.swift in Sources */,
 				DCE7A4772CADD3CD00C82A71 /* HookScreen.swift in Sources */,
 				DC4873A02CC0386100773868 /* ThemesView.swift in Sources */,
 				DCE7A4812CADD62200C82A71 /* WidgetScreen.swift in Sources */,
