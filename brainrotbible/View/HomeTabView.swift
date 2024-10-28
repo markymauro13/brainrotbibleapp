@@ -11,6 +11,9 @@ import SwiftUI
 struct HomeTabView: View {
     var body: some View {
         ZStack {
+            Color.brown
+                .ignoresSafeArea(edges: .top) // This will extend the brown color to the top of the screen
+            
             VStack {
                 Spacer()
                 QuoteView()
@@ -30,4 +33,8 @@ struct HomeTabView: View {
         }
         .navigationBarHidden(true)
     }
+}
+
+#Preview {
+    HomeTabView()
 }

@@ -41,6 +41,7 @@ struct BrainrotBibleHomeView: View {
                 .tag(4)
         }
         .accentColor(.yellow)
+        .background(Color.clear)
     }
 }
 

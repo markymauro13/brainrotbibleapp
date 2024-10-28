@@ -15,4 +15,9 @@ struct QuoteView: View {
             .multilineTextAlignment(.center)
             .padding()
     }
+        
+}
+
+#Preview {
+    QuoteView()
 }
